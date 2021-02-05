@@ -2,15 +2,14 @@
 #To write a list of prime numbers from 0-100 using functions
 
 
+
 def is_prime(number):
     if number <= 1:
         return False
-    
     for factor in range(2, number):
         if number % factor == 0:
             return False
-
-    return True
+        return True
     
     
     
